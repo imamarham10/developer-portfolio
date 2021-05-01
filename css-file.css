@@ -1,0 +1,123 @@
+body{
+    margin: auto;
+    background-color:#ffffff;
+    background-image: url(/isai-ramos-_3SFFsWqCVg-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.nav-text{
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+}
+/*<a> to be edited later*/
+a:link{
+    font-size: 1.2rem;
+    color:white;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 4px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  } 
+  a:hover {
+    color:#ffae52;
+    background-color: transparent;
+  }
+   a:active {
+    color:#ffae52;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  /* intro-texts */
+  .heading-name{
+    margin-top: 8%;
+    margin-left: 15%;
+  }
+   .heading-name-one{
+    color: white;
+    font-family: "Nunito Sans",sans-serif;
+    margin-top: 100px;
+    display: inline;
+  }
+  .heading-name-two{
+    color: #ffae52;
+    font-family: "Nunito Sans",sans-serif;
+    padding: 10px;
+   
+  }
+  .intro-text-1{
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    color:#ffae52;
+    margin-top: 10%;
+    margin-left: 15%;
+    font-size: 3.5rem;
+    line-height: 0rem;
+}
+.intro-text-2{
+  margin: 0;
+  padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-left: 180px;
+    font-size: 4.5rem;
+    line-height: 4rem;
+    display: inline-block;
+}
+.intro-text-3{
+  color:#ffae52;
+  display: inline-block;
+  font-size: 5rem;
+}
+.main-heading-aboutme{
+  font-family: "Nunito Sans",sans-serif;
+  color: #294b5f;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-style: inset;
+  border-width: 1.5px;
+}
+.main-content-aboutme{
+  margin-left: 15%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:#000000;
+  font-weight: 500;
+  font-size: 22px;
+}
+.main-heading-project{
+  font-family: "Nunito Sans",sans-serif;
+  color: #294b5f;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.main-heading-title{
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: "Nunito Sans",sans-serif;
+  color: #294b5f;
+  font-weight: 700;
+  margin-top: 40px;
+
+}
+.main-content-project{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+/* ul{ */
+  
