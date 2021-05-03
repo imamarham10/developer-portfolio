@@ -128,9 +128,10 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 75px;
 }
 .footer-div-class{
   color: #294b5f;
@@ -144,22 +145,30 @@ hr {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .footer-email-image{
-  height: 20px;
-  
-  
+  height: 25px;
 }
 .footer-insta-image{
-  height: 20px;
+  height: 25px;
 
 }
 .footer-github-image{
-  height: 20px;
+  height: 25px;
 }
 .footer-linkedin-image{
-  height: 20px;
+  height: 25px;
 }
 .span-link{
   margin: 3px;
+}
+.div-message{
+  margin: 2px;
+  color: white;
+}
+.footer-message-love{
+  height: 20px;
+}
+.span-message{
+  font-size: 20px;
 }
 /* ul{ */
   
