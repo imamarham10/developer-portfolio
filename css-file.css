@@ -260,11 +260,16 @@ hr {
   .span-link{
     margin: 2px;
   }
+  .div-message{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+  }
   .footer-message-love{
-    height: 15px;
+    height: 12px;
   }
   .span-message{
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
