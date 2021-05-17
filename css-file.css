@@ -243,21 +243,19 @@ hr {
   border-style: inset;
   border-width: 1.5px;
   }
-  .main-aboutme{
-    margin-bottom: 15px;
-  }
+  
   .footer-email-image{
-    height: 18px;
+    height: 15px;
   }
   .footer-insta-image{
-    height: 18px;
+    height: 15px;
   
   }
   .footer-github-image{
-    height: 18px;
+    height: 15px;
   }
   .footer-linkedin-image{
-    height: 18px;
+    height: 15px;
   }
   .span-link{
     margin: 2px;
