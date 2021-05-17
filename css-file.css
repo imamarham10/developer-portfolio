@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 body{
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -7,11 +11,11 @@ body{
     background-image: url(/isai-ramos-_3SFFsWqCVg-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
 }
 .nav-text{
     text-align: center;
-    /* margin-top: 15px; */
-    padding: 15px;
+    padding: 1%;
 }
 /*<a> to be edited later*/
 .nav-anchor{
@@ -62,7 +66,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     margin-top: 140px;
     margin-left: 190px;
     font-size: 3.5rem;
-    line-height: 0rem;
+    
 }
 .intro-text-2{
     margin-top: 0px;
@@ -70,7 +74,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     color: white;
     margin-left: 190px;
     font-size: 4.5rem;
-    line-height: 4rem;
+  
     display: inline-block;
 }
 .intro-text-3{
@@ -115,7 +119,6 @@ hr {
   color: #294b5f;
   font-weight: 700;
   margin-top: 40px;
-
 }
 .main-content-project{
   margin-left: 190px;
@@ -170,5 +173,94 @@ hr {
 .span-message{
   font-size: 20px;
 }
-/* ul{ */
+
+@media screen and (max-width: 500px) {
+  .nav-anchor{
+    font-size: 15px;
+  }
+  .heading-name{
+    text-align: center;
+    margin: 60px 35px;    
+  }
+  .heading-name-one{
+    font-size: 18px;
+    text-align: center;
+  }
+  .heading-name-two{
+    font-size: 18px;
+    text-align: center;
+  }
+  .intro-text-1{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    font-size: 26px;
+    
+  }
+    .intro-text-2{
+    margin-left: 50px;
+    font-size: 26px;
+  }
+  .intro-text-3{
+    font-size: 40px;
+  }
+  .main-heading-aboutme{
+    margin-top: 10px;
+    font-size: 26px;
+    text-align: center;
+  }
+  .main-content-aboutme{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+  }
+  .main-heading-project{
+    margin-top: 10px;
+    font-size: 26px;
+    text-align: center;
+  }
+  .main-heading-title{
+    font-size: 22px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .main-content-project{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+  }
+  hr{
+    display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-style: inset;
+  border-width: 1.5px;
+  }
+  .main-aboutme{
+    margin-bottom: 15px;
+  }
+  .footer-email-image{
+    height: 18px;
+  }
+  .footer-insta-image{
+    height: 18px;
   
+  }
+  .footer-github-image{
+    height: 18px;
+  }
+  .footer-linkedin-image{
+    height: 18px;
+  }
+  .span-link{
+    margin: 2px;
+  }
+  .footer-message-love{
+    height: 15px;
+  }
+  .span-message{
+    font-size: 15px;
+  }
+}
